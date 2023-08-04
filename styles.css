@@ -1,82 +1,95 @@
 
 :root {
-    --white1: #fbf3cb;
-    --green1:rgb(114, 173, 61);
-    --green2:#80b149;
-    --green3:#a7bf78;
-    --green4:#cee49c;
-    --gray1:#b1ac96;
-    --gray2:#b1ac96;
-    --gray3:#7c735b;
-    --brown:#322c1c;
-    --sm: 14px;
-    --md: 16px;
-    --lg: 18px;
-    --vlg: 30px
+  --white1: #fbf3cb;
+  --green1:rgb(114, 173, 61);
+  --green2:#80b149;
+  --green3:#a7bf78;
+  --green4:#cee49c;
+  --gray1:#b1ac96;
+  --gray2:#b1ac96;
+  --gray3:#7c735b;
+  --brown:#322c1c;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+  --vlg: 30px
   }
 
 body{
-    margin: 0;
-    font-family: 'Instrument Sans', sans-serif;
+  margin: 0;
+  font-family: 'Instrument Sans', sans-serif;
 }
 .header-Container{
-    background-color: var(--green1);
-    height: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 0px;
-    padding-top: 50px;
+  background-color: var(--green1);
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0px;
+  padding-top: 50px;
     
 }
 .header-Title{
-    background-color: white;
-    width: 100%;
-    color: var(--green1);
-    font-size: 35px;
-    margin-top: 10px;
-    padding-left: 20px;
+  background-color: white;
+  width: 100%;
+  color: var(--green1);
+  font-size: 35px;
+  margin-top: 10px;
+  padding-left: 20px;
 
 }
 .header-Title2{
-    display: flex;
+  display: flex;
 }
 
 .img-Title{
-    margin: 5px;
-    width: 50px;
-    height: 50px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
     
 }
 .p-Title{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 50px;
 }
 .p-Subtitle{
-    margin-top: 0px;
-    color: black;
-    font-size:11px;
+  margin-top: 0px;
+  color: black;
+  font-size:11px;
 }
 .menu-Container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .menu{
-    color: white;
-    font-size: var(--lg);
+  color: white;
+  font-size: var(--lg);
 }
 .menu-Container img{
     
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-    cursor: pointer;
-    
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.container-Service{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 270px;
 }
 .projectImage{
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
+  cursor: pointer;
+}
+.POver{
+  cursor: pointer;
+  position: relative;
+  color: white;
+  top: -90px;
+  font-weight: bold;
+  font-size: 20px;
 }
