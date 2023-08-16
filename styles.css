@@ -54,11 +54,19 @@ body{
   font-weight: bold;
   font-size: 50px;
 }
+.header-right{
+  display: none;
+}
+
+.paragraph1{
+  display: none;
+}
 .p-Subtitle{
   margin-top: 0px;
   color: black;
   font-size:11px;
 }
+
 .menu-Container{
   display: flex;
   align-items: center;
@@ -122,6 +130,62 @@ footer a img{
   .header-Container{
     height: 250px;
   }
+  .header-right{
+    display: flex;
+   
+    align-items: end;
+    position: absolute;
+    right: 5%;
+  }
+  .header-right ul{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .header-right ul li{
+    margin-right: 30px;
+    list-style: none;
+    
+  }
+  .header-right ul li a{
+    text-decoration: none;
+  }
+  .img-Title{
+    width: 100px;
+    height: 80px;
+    align-self: center;
+    padding-left: 1%;
+  }
+  .p-Subtitle{
+    font-size: 24px;
+    padding-left: 1%;
+    
+  }
+  .projectImage-Container{
+    width: 40%;
+    display: flex;
+  }
+  .projectImage{
+    object-fit:contain;
+    margin: auto;
+    align-self: center;
+    
+    width: 400px;
+    height: auto;
+    /* border: 20px solid rgb(0, 0, 0);
+    border-style:solid; */
+  }
+  .paragraphContainer{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    
+  }
+  .paragraph1{
+    display: initial;
+    max-width: 800px;
+    text-align: justify;
+  }
 
 
   .p-Title{
@@ -134,19 +198,8 @@ footer a img{
     height: 400px;
 
   }
-  .projectImage{
-    object-fit:contain;
-    margin-left: 50px;
-    
-    align-self: center;
-    width: 400px;
-    height: auto;
-    border: 20px solid white;
-    border-style: groove;
+  
 
-   
-
-  }
   .POver{
     color: black;
     position: static;
