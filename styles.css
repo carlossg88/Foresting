@@ -63,7 +63,7 @@ body{
 
 .navbar-mobile{
   position: absolute;
-  left: 50%;
+  left: 10%;
   top: 200px;
   background-color: white;
   padding-right: 10px;
