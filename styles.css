@@ -19,6 +19,9 @@ body{
   margin: 0;
   font-family: 'Instrument Sans', sans-serif;
 }
+.inactive{
+  display: none;
+}
 .header-Container{
   background-color: var(--green1);
   height: 160px;
@@ -56,6 +59,14 @@ body{
 }
 .header-right{
   display: none;
+}
+
+.navbar-mobile{
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  background-color: white;
+  padding-right: 10px;
 }
 
 .paragraph1{
@@ -184,6 +195,9 @@ footer a img{
     font-size: 24px;
     padding-left: 1%;
     
+  }
+  .navbar-mobile{
+    display: none;
   }
   .projectImage-Container{
     width: 40%;
