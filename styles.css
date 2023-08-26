@@ -122,6 +122,39 @@ body{
   font-size: 20px;
   padding-left: 20px;
 }
+
+.partners-container{
+  margin-top: 40px;
+  margin-right: 24px;
+  margin-left: 24px;
+  
+}
+
+.partners-container p{
+  text-align: justify;
+}
+
+section{
+  
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+section img{
+  height: 60px;
+  margin: 10px;
+  
+}
+
+.bold{
+  font-weight: bold;
+  font-size: var(--lg);
+}
+
+
+
 footer{
   background-color: var(--green1);
   text-align: center;
@@ -156,6 +189,28 @@ footer a img{
   max-width: 700px;
 }
 
+.team-container{ 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-container--Person{
+  padding: 24px;
+  margin: auto;
+}
+
+.team-container--Person img{
+  border-radius: 50% ;
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+
+}
+.team-container--Person p{
+  text-align: center;
+}
+
+
 /* CONTACT */
 .contact-main-container{
   margin: auto;
@@ -165,8 +220,7 @@ footer a img{
 }
 /* CALENDAR */
 .calendario{
-  width: 100%;
-
+  max-width: 100%;
 }
 
 
@@ -294,6 +348,26 @@ footer a img{
     width: 800px;
     height: 600px;
   }
+
+  section{
+    display: flex;
+    width: 100%;
+    height: 430px;
+  }
+  section img{
+    width: 0px;
+    height: 300px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: .5s ease;
+  }
+  section img:hover{
+    cursor: crosshair;
+    width: auto;
+    opacity:1;
+    filter: contrast(120%);
+  }
   
 }
 
@@ -406,6 +480,27 @@ footer a img{
   .google-map iframe{
     width: 800px;
     height: 600px;
+  }
+
+  section{
+    display: flex;
+    width: 80%;
+    height: 430px;
+    margin: auto;
+  }
+  section img{
+    height: 300px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 2s ease;
+  }
+  section img:hover{
+    cursor: crosshair;
+    width: auto;
+    opacity:1;
+    filter: contrast(120%);
   }
   
 }
