@@ -173,9 +173,10 @@ footer a{
   margin-bottom:24px ;
 }
 footer a img{
-  width: 24px;
-  height: 24px;
+  width: 34px;
+  height: 34px;
   margin-bottom: 100px;
+  margin: 5px;
 }
 
 /* ABOUT */
